@@ -6,7 +6,7 @@ fn main() {
     println!("Logs from your program will appear here!");
 
     // Uncomment this block to pass the first stage
-    let listener = TcpListener::bind("128.0.0.1:6379").unwrap();
+    let listener = TcpListener::bind("128.0.0.1:6079").unwrap();
 
     for stream in listener.incoming() {
         match stream {
